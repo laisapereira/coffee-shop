@@ -1,0 +1,407 @@
+* {
+    margin:0;
+    padding:0;
+    border:0;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+  
+  
+body {
+    width:100%;
+}
+
+.desktop {
+    text-align: justify;
+    color:black;
+    padding: 32px 0;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.desktop a {
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    color:black;
+}
+
+.desktop button {
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+    display:none;
+}
+
+
+button {
+    background: #2D635E;
+    width:188px;
+    height: 53px;;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    color: #fff;
+    cursor:pointer;
+    
+}
+
+.pedaco-1 p {
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 19px;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 63px;
+}
+
+.um{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    
+}
+
+.pedaco-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 27px 0;
+}
+  
+
+.aside {
+    display:flex;
+    flex-direction:row;
+    gap: 40px;
+    
+}
+
+.contato {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 14px;
+    
+}
+
+#lado {
+    font-size:28px;
+    font-family: 'Josefin Sans', sans-serif;
+    transform: rotate(-180deg);
+    writing-mode: vertical-rl;
+}
+
+.fa,.in,.tt {
+    width: 32px;
+    height: 32px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.dois h1,.tres h1, .cinco h1 {
+    font-family: 'Cedarville Cursive', cursive;
+    font-weight: normal;
+    font-size: 28px;
+}
+
+#titulo {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.aside-abaixo h1 {
+    font-size: 38px;
+}
+
+.texto, #texto {
+    font-family:'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.pedaco-2 {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 120px 0;
+}
+
+.aside-abaixo {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 47vw;
+    font-size: 19px;
+    text-align: justify; 
+}
+
+
+.aside-abaixo2 h1 {
+    font-size: 38px;
+}
+
+
+.pedaco-3 {
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 120px 0;
+}
+
+.tres h1 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.aside-abaixo2 {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+    width: 47vw;
+    font-size: 19px; 
+}
+
+.aside-abaixo2 {
+    padding: 24px 0;
+}
+
+.pedaco-4 {
+    background-color: #E3EBE7;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 35px 0;
+    gap: 2.2vw;
+}
+
+.pedaco-4 h1 {
+    font-size:28px;
+}
+
+.caixa {
+    background-color: white;
+    border-radius: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:26px;
+    padding: 44px;
+    font-size: 19px;
+    line-height: 36px;
+}
+
+.caixa p {
+    width: 16.4vw;
+}
+
+.aside-abaixo3 {
+    display: flex;
+    flex-direction: column;
+    gap:44px;
+}
+
+.aside-abaixo3 h1{
+    font-size:32px;
+    font-family: 'Josefin sans', normal;
+}
+
+.pedaco-5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+    padding: 9.9vh;
+}
+
+#mapa {
+    width: 47vw;
+    height: 56vh;
+    border-radius: 5px;
+}
+
+
+.endereço {
+    display:flex;
+    flex-direction: column;
+    font-size: 19px;
+    gap:16px;
+}
+
+.aside-abaixo3 button {
+    display:none;
+}
+
+footer{
+    text-align: center;
+    font-size:19px;
+}
+
+.botao-main {
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Responsividade mobile */
+
+@media (max-width:768px) {
+
+    .desktop a {
+        display:none;    
+    }
+
+    .icon {
+        display: flex;
+    }
+
+    .desktop {
+        background-color: #ffff;
+        padding: 32px 0;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items: center;
+    }
+
+    .aside{
+        display:none;
+    }
+
+    .pedaco-1 h1 {
+        font-size: 54px;
+
+    }
+
+    .um {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items:center;
+        padding:0px;
+        gap: 26px; 
+    }
+
+    .pedaco-2{
+        flex-direction: column;
+        padding: 67px 0;
+        gap: 30px 0;
+    }
+
+    .aside-abaixo {
+        width: 83%;
+        flex-direction: column;
+        text-align: left;
+        gap:30px 0;
+    }
+
+
+    #caferosa, #cafeazul {
+        width:100vw;
+    }
+
+    .dois h1,.tres h1,.pedaco-3 button, .cinco h1{
+        display:none;
+    }
+
+    .pedaco-1 {
+        flex-direction: column;
+        justify-content: space-eveny;
+        align-items:center;
+        height: 66vh;
+    }
+
+    .contato {
+        display:none;
+    }
+
+    .pedaco-3 {
+        flex-direction: column;
+        
+    }
+
+    .aside-abaixo2 {
+        width: 83%;
+        flex-direction: column;
+        text-align: left;
+        gap:30px 0;
+    }
+
+    .aside-abaixo2 h1 {
+        font-size:38px;
+    }
+
+    .pedaco-4 {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 3rem;
+    } 
+    
+    .caixa {
+        padding: 44px 0;
+        width: 90%;
+    }
+
+    .caixa p {
+        width: 39.22vw;
+        text-align: center;
+    }
+
+    .pedaco-5{
+        flex-direction: column;
+        gap:49px;
+    }
+
+
+    #mapa {
+        width: 100vw;
+        height: 32vh;
+
+    }
+
+    .aside-abaixo3 {
+        gap: 10px;
+    }
+
+    .aside-abaixo3 button {
+        display:block;
+        background-color: #fff;
+        color: #444A4A;
+        border-radius: 5px;
+        box-shadow: 0px 4px 10px
+        rgba(0, 0, 0, 0.17)
+
+    }
+
+    .aside-abaixo3 h1 {
+        text-align: center;
+    }
+
+    .endereço {
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        gap: 10px;
+
+    }
+
+    #texto {
+        display: none;
+    }
+
+
+
+
+}
